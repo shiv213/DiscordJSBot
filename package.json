@@ -1,0 +1,37 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Discord JS Bot with Heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "test": "exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiv213/DiscordJSBot.git"
+  },
+  "keywords": [
+    "discord",
+    "heroku",
+    "js",
+    "discord.js",
+    "bot"
+  ],
+  "author": "shiv213",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shiv213/DiscordJSBot/issues"
+  },
+  "homepage": "https://github.com/shiv213/DiscordJSBot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "opusscript": "0.0.6",
+    "request": "^2.87.0"
+  }
+}
